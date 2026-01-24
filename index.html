@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Página hecha por mí apoyado de una plantilla de startbootstrap" />
+        <meta name="author" content="Miguel Angel Aranda Castillo" />
+        <title>Portafolio web</title>
+        <link rel="icon" type="image/x-icon" href="assets/website-icon.ico" />
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">Acerca de mi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">Contáctame</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">Portafolio</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Conoce sobre mí y mis proyectos personales</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <h2 class="text-white mb-4 mt-2">Acerca de mi</h2>
+                    <div class="about-img-container mb-5">
+                        <img class="img-personal-photo" src="./assets/img/Foto-personal.jpeg" alt="Foto-personal">
+                    </div>
+                    <div class="col-lg-4">
+                        <i class="bi bi-person-circle"></i>
+                        <h2 class="text-white mb-4 mt-2">¿Quien soy?</h2>
+                        <p class="text-white-50">
+                            Mi nombre es Miguel Angel Aranda Castillo. Soy ingeniero de Desarrollo de Software, 
+                            soy proactivo, organizado y responsable, con sólidos conocimientos de programación. Me destaco
+                            por trabajar en equipo y tomar decisiones rápidas y efectivas. Busco un puesto desafiante como desarrollador de
+                            software para seguir aprendiendo y creciendo profesionalmente.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <i class="bi bi-display"></i>
+                        <h2 class="text-white mb-4 mt-2">Programación Web</h2>
+                        <p class="text-white-50 mb-0">
+                            Anteriormente he trabajado en varios proyectos relacionados al desarrollo web y gestión de bases de datos.
+                            <br><br>Algunos de los lenguajes que he utilizado son los siguientes:
+                        </p>
+                            <div class="badges-contenedor">
+                                <span class="badge text-bg-success">HTML</span>
+                                <span class="badge text-bg-primary">CSS</span>
+                                <span class="badge text-bg-warning">JavaScript</span><br>
+                                <span class="badge text-bg-light">C#</span>
+                                <span class="badge text-bg-secondary">Python</span>
+                                <span class="badge text-bg-danger">PHP</span>
+                            </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <i class="bi bi-server"></i>
+                        <h2 class="text-white mb-4 mt-2">Logros</h2>
+                        <p class="text-white-50">
+                            He desarrollado varios modulos utiizando el entorno web ASP.net con estructura MVC (Modelo, vista, controlador). Uno de ellos consiste en unas
+                            graficas que despliegan datos extraídos de una base de datos en tiempo real en formato API (Json). 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <hr>
+                <h2 class="text-center mb-5">Proyectos</h2>
+
+                <!-- Proyecto 1 (Mantefix)-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-6 col-lg-7"><img class="mantefix-image img-fluid mb-3 mb-lg-0" data-bs-toggle="modal" data-bs-target="#MantefixModal" src="assets/img/img-mantenimiento-preventivo-play-button.jpg" alt="mantefix-image" /></div>
+                    <div class="col-xl-6 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Mantefix</h4>
+                            <p class="text-black-50 mb-0">Proyecto de optimización de mantenimiento correctivo y preventivo para equipos de maquinaria en industrias y planificación de tareas críticas.
+                            Las actividades a realizar dependian del rol del usuario logeado, si era tecnico podía completar algunas tareas asignadas. Mientras tanto el gerente administraba todas las actividades hechas y por hacer
+                            de los tecnicos al mando. El supervisor puede agregar maquinas nuevas al area y asignarlas con ID, ubicación, planta y otros datos. <u>La app móvil se programó en React Native.</u></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 1 Modal video -->
+                <div class="modal MantefixModal" id="MantefixModal" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Mantefix en Movil</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex">
+                                <video id="mantefixVideo" src="assets/img/mantefix-videodemo.mp4" controls></video>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Misty</h4>
+                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!-- <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Mountains</h4>
+                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <!-- Signup-->
+        <section class="signup-section" id="signup">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <hr>
+                        <h2 class="text-white mb-5 text-start">Envíame un correo aquí</h2>
+                        <form class="form-signup needs-validation" action="https://formspree.io/f/xykenkby" method="POST" id="contactForm" novalidate>
+                            <!-- Email address input-->
+                            <div class="row input-group-newsletter">
+                                <div class="mb-3 col-9">
+                                    <input class="form-control" name="name" id="name" type="text" placeholder="Ingresa tu nombre" aria-label="Ingresa tu nombre" required/>
+                                    <div class="invalid-feedback">Falta ingresar su nombre</div>
+                                </div>
+                                <div class="mb-3 col-9">
+                                    <input class="form-control" name="email" id="email" type="email" placeholder="Ingresa tu correo" aria-label="Ingresa tu correo" required/>
+                                    <div class="invalid-feedback">Falta ingresar su correo</div>
+                                </div>
+                                <div class="mb-3 col-9">
+                                    <textarea class="form-control" name="message" id="subject" type="text" placeholder="Escribe el asunto" aria-label="Escribe el asunto" rows="5" required></textarea>
+                                    <div class="invalid-feedback">Falta ingresar el asunto</div>
+                                </div>
+                                <div class=" d-flex justify-content-end"><button class="btn btn-primary" id="submitButton" type="submit" value="Submit">Enviar</button></div>
+                            </div>
+
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3 mt-2 text-white">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                </div>
+                            </div>
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="contact-section bg-black">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Correo personal</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="text-black-50"><a href="mailto:aranda.castillo.miguel@gmail.com">aranda.castillo.miguel@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Número de teléfono</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="text-black-50"><a href="tel:+526645709069">(+52) 664-570-9069</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://www.linkedin.com/in/miguel-aranda-castillo-7882392b6/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                    <a class="mx-2" href="https://wa.me/5216645709069" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+                    <a class="mx-2" href="https://github.com/MiguelAranda64" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Hecho por Miguel Angel Aranda Castillo</div></footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
