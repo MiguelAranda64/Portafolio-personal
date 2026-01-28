@@ -64,7 +64,7 @@ window.addEventListener('DOMContentLoaded', event => {
   })
 })()
 
-// Reproducción de video al abrir o cerrar modal
+// Reproducción de video al abrir o cerrar modal mantefix
 const mantefixModal = document.getElementById("MantefixModal");
 const mantefixVideo = document.getElementById("mantefixVideo");
 
@@ -74,4 +74,17 @@ mantefixModal.addEventListener('show.bs.modal', () => {
 
 mantefixModal.addEventListener('hidden.bs.modal', () => {
     mantefixVideo.pause();
+})
+
+
+// Reproducción de video al abrir o cerrar modal RH
+const RHModal = document.getElementById("RHModal");
+const RHVideo = document.getElementById("RHVideo");
+
+RHModal.addEventListener('show.bs.modal', () => {
+    RHVideo.play()
+});
+
+RHModal.addEventListener('hidden.bs.modal', () => {
+    RHVideo.pause();
 })

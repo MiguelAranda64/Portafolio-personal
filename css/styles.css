@@ -11165,7 +11165,7 @@ body {
   }
 }
 
-.projects-section .mantefix-image{
+.projects-section img{
   max-width: 100%;          
   max-height: 300px;         
   border: 3px solid #373b3e; 
@@ -11175,15 +11175,24 @@ body {
   margin: auto;
 }
 
-.projects-section .mantefix-image:hover {
+.projects-section img:hover {
   transform: scale(1.1);
 }
 
 .projects-section .MantefixModal video{
-  height: 650px;
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin: auto;
 }
+
+.projects-section .RHModal video{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 
 .signup-section {
   padding: 10rem 0;
